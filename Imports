@@ -21,12 +21,20 @@ https://docs.python.org/3/library/pprint.html
 
 # import the IESVE api for the energy modeling software
 import iesve
+https://help.iesve.com/ve2021/6_ve_python_api.htm?ms=AhAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAEAEAQgC&st=MA%3D%3D&sct=MA%3D%3D&mw=MjQw
+https://help.iesve.com/ve2021/6_1_15_roominternalgain.htm?ms=AhAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAEAEAQgC&st=MA%3D%3D&sct=ODAxLjgxODE3NjI2OTUzMTI%3D&mw=MjQw
 
-# tkinter for 
+# tkinter provides a robust and platform independent windowing toolkit 
 import tkinter as tk
+https://docs.python.org/3/library/tk.html
 
 # xlswrite for creating excel files from data
 import xlsxwriter
+https://xlsxwriter.readthedocs.io/
 
 # OS for using the computer's operating system to open files
 import os
+
+# fuzzywuzzy to compare two strings
+import fuzzywuzzy as fuzzy # this uses Levenshtein algorithm
+https://pypi.org/project/fuzzywuzzy/
