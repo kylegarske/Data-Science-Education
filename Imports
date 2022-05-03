@@ -1,0 +1,32 @@
+""""
+types of imports that are useful in Python
+"""
+
+# pyplot from matplot lib
+import matplotlib.pyplot as plt
+https://matplotlib.org/stable/api/index.html
+
+# pandas for dataframe manipulation
+import pandas as pd
+https://pandas.pydata.org/docs/reference/index.html
+
+# seaborn for data visualization
+import seaborn as sns
+https://seaborn.pydata.org/api.html
+
+# pretty print to clean up printing of dictionaries
+import pprint
+pp = pprint.PrettyPrinter()
+https://docs.python.org/3/library/pprint.html
+
+# import the IESVE api for the energy modeling software
+import iesve
+
+# tkinter for 
+import tkinter as tk
+
+# xlswrite for creating excel files from data
+import xlsxwriter
+
+# OS for using the computer's operating system to open files
+import os
