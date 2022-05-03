@@ -38,3 +38,6 @@ import os
 # fuzzywuzzy to compare two strings
 import fuzzywuzzy as fuzzy # this uses Levenshtein algorithm
 https://pypi.org/project/fuzzywuzzy/
+
+# record linkage to be used in tandem with fuzzywuzzy for scalable linking
+import recordlinkage
